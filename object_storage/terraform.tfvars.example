@@ -1,0 +1,13 @@
+# provider and common variables
+yc_zone                  = ""
+yc_token                 = ""
+yc_cloud_id              = ""
+yc_folder_id             = ""
+
+# service account variables
+yc_sa_name               = "self-sa"
+
+# bucket variables
+yc_bucket_name           = "self-bucket-12345"
+yc_bucket_size           = 5368709120
+yc_default_storage_class = "standard"
