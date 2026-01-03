@@ -1,0 +1,24 @@
+# provider and common variables
+yc_zone                = ""
+yc_token               = ""
+yc_cloud_id            = ""
+yc_folder_id           = ""
+
+# network variables
+yc_network_name        = "self-network"
+
+# subnet variables
+yc_subnet_name         = "self-subnet"
+yc_subnet_range        = "10.0.0.0/24"
+
+# compute disk variables
+yc_disk_name           = "self-disk"
+yc_disk_type           = "network-ssd"
+yc_image_id            = "fd808e721rc1vt7jkd0o"   # Ubuntu 20.04 LTS
+
+# compute instance variables
+yc_vm_name             = "self-vm"
+yc_platform_id         = "standard-v3"
+yc_vm_cores            = 2
+yc_vm_memory           = 4
+yc_ssh_public_key_path = "<your public ssh key path>.pub"

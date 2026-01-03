@@ -1,3 +1,3 @@
 # self_terraform
 
-Terraform configuration templates
+Yandex Cloud Terraform configuration templates
