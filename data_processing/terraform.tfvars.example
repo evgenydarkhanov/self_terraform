@@ -1,0 +1,33 @@
+# provider and common variables
+yc_zone                  = ""
+yc_token                 = ""
+yc_cloud_id              = ""
+yc_folder_id             = ""
+public_key_path          = ""
+private_key_path         = ""
+
+# IAM variables
+yc_service_account_name  = "self-sa"
+
+# network variables
+yc_network_name          = "self-network"
+yc_subnet_name           = "self-subnet"
+yc_subnet_range          = "10.0.0.0/24"
+yc_nat_gateway_name      = "self-nat-gateway"
+yc_route_table_name      = "self-route-table"
+yc_security_group_name   = "self-security-group"
+
+# storage variables
+yc_bucket_name           = "self-bucket-12345"
+yc_default_storage_class = "standard"
+
+# Data Proc variables
+yc_dataproc_cluster_name = "self-dataproc-cluster"
+yc_dataproc_version      = "2.0"
+
+# compute instance variables
+yc_image_id              = "fd808e721rc1vt7jkd0o" # Ubuntu 20.04 LTS
+yc_instance_name         = "self-proxy-vm"
+yc_platform_id           = "standard-v3"
+yc_instance_cores        = 2
+yc_instance_memory       = 16
