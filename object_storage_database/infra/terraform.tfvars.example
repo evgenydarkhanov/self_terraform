@@ -1,0 +1,27 @@
+# provider and common variables
+yc_zone                     = ""
+yc_token                    = ""
+yc_cloud_id                 = ""
+yc_folder_id                = ""
+
+# IAM variables
+yc_service_account_name     = "self-sa"
+
+# network variables
+yc_network_name             = "self-network"
+yc_subnet_name              = "self-subnet"
+yc_subnet_range             = "10.5.0.0/24"
+
+# S3 variables
+yc_bucket_name              = "self-bucket"
+yc_bucket_size              = 5368709120
+yc_default_storage_class    = "standard"
+
+# DB variables
+yc_mysql_cluster_name       = "self-mysql-cluster"
+yc_mysql_version            = "8.0"
+yc_mysql_environment        = "PRODUCTION"
+
+yc_mysql_database_name      = "self-database"
+yc_mysql_user_name          = "self-user"
+yc_mysql_user_password      = "self-password"
